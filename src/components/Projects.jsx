@@ -1,4 +1,7 @@
 import React from "react";
+import cloud from "../assets/enterprise_cloud_migration.jpg";
+import ai from "../assets/ai_driven.jpg";
+import devops from "../assets/devops.jpg";
 
 const Projects = () => {
   return (
@@ -15,7 +18,7 @@ const Projects = () => {
 
         <div className="project-card">
           <img
-            src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31"
+            src={cloud}
             alt="Cloud migration"
           />
           <h3>Enterprise Cloud Migration</h3>
@@ -27,7 +30,7 @@ const Projects = () => {
 
         <div className="project-card">
           <img
-            src="https://images.unsplash.com/photo-1555949963-aa79dcee981c"
+            src={ai}
             alt="AI analytics"
           />
           <h3>AI‑Driven Insights Platform</h3>
@@ -39,7 +42,7 @@ const Projects = () => {
 
         <div className="project-card">
           <img
-            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+            src={devops}
             alt="DevOps automation"
           />
           <h3>DevOps Automation for FinTech</h3>

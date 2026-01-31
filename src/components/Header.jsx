@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/shrtech-logo.png"; // Make sure to place your uploaded logo in src/assets/
+import logo from "../assets/shr_logo_transparent.png"; // Make sure to place your uploaded logo in src/assets/
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);

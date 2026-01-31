@@ -24,15 +24,6 @@ body {
   padding: 100px 20px;           /* adjust for spacing */
   color: #e2e8f0;                /* light text for dark backgrounds */
 }
-.about-bc-image{
-   background-image: url('./assets/about_bc.png'); /* replace with your image path */
-  background-size: cover;        /* ensures full coverage */
-  background-position: center;   /* centers the image */
-  background-repeat: no-repeat;  /* prevents tiling */
-  background-attachment: fixed;  /* optional: parallax effect */
-  padding: 100px 20px;           /* adjust for spacing */
-  color: #e2e8f0;  
-}
 .section {
   padding: 90px 20px;
   max-width: 1200px;
@@ -199,7 +190,7 @@ button.outline:hover {
 }
 
 .logo-text {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   background: linear-gradient(135deg, #60a5fa, #a78bfa);
   -webkit-background-clip: text;
@@ -209,9 +200,9 @@ button.outline:hover {
 }
 
 .logo-image {
-  height: 40px;
+  height: 30px;
   width: auto;
-  margin-right: 10px;
+  /*margin-right: 10px;*/
   filter: drop-shadow(0 0 8px rgba(59, 130, 246, 0.8));
   transition: all 0.3s ease;
 }
@@ -373,7 +364,7 @@ button.outline:hover {
   align-items: center;
 }
 .home-content h1 {
-  font-size: 52px;
+  font-size: 42px;
   margin-bottom: 16px;
   color: #f9fafb;
   text-shadow: 0 0 20px rgba(59, 130, 246, 0.8);
