@@ -26,7 +26,7 @@ const Footer = () => {
     {
       id: "linkedin",
       name: "LinkedIn",
-      url: "https://www.linkedin.com/company/shr-technologies",
+      url: "https://www.linkedin.com/company/112077371/admin/dashboard/",
       icon: FaLinkedinIn,
       color: "linkedin",
       ariaLabel: "Connect with us on LinkedIn",
